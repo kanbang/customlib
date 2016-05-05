@@ -1,0 +1,205 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+EPLOGABSTRACTMODE_H	EPlogAbstractModel.h	2;"	d	language:C++
+EPLOGTABLE_H	EPlogTable.h	2;"	d	language:C++
+EPlogAbstractModel	EPlogAbstractModel.cpp	/^EPlogAbstractModel::EPlogAbstractModel()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel	EPlogAbstractModel.h	/^    EPlogAbstractModel();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel	EPlogAbstractModel.h	/^class EPlogAbstractModel$/;"	c	language:C++
+EPlogAbstractModel::EPlogAbstractModel	EPlogAbstractModel.cpp	/^EPlogAbstractModel::EPlogAbstractModel()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::EPlogAbstractModel	EPlogAbstractModel.h	/^    EPlogAbstractModel();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::addColumn	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::addColumn()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::addColumn	EPlogAbstractModel.h	/^    void addColumn();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::addRow	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::addRow()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::addRow	EPlogAbstractModel.h	/^    void addRow();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::columnCount	EPlogAbstractModel.cpp	/^int EPlogAbstractModel::columnCount()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::columnCount	EPlogAbstractModel.h	/^    int columnCount();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::data	EPlogAbstractModel.cpp	/^QString EPlogAbstractModel::data(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(int rowIndex, int columnIndex)
+EPlogAbstractModel::data	EPlogAbstractModel.h	/^    virtual QString data(int rowIndex,int columnIndex);$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:(int rowIndex,int columnIndex)
+EPlogAbstractModel::m_columnCount	EPlogAbstractModel.h	/^    int m_columnCount;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+EPlogAbstractModel::m_columnNames	EPlogAbstractModel.h	/^    QStringList         m_columnNames;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+EPlogAbstractModel::m_rowCount	EPlogAbstractModel.h	/^    int m_rowCount;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+EPlogAbstractModel::m_rowNames	EPlogAbstractModel.h	/^    QStringList         m_rowNames;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+EPlogAbstractModel::removeColumn	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::removeColumn()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::removeColumn	EPlogAbstractModel.h	/^    void removeColumn();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::removeRow	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::removeRow()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::removeRow	EPlogAbstractModel.h	/^    void removeRow();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::rowCount	EPlogAbstractModel.cpp	/^int EPlogAbstractModel::rowCount()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+EPlogAbstractModel::rowCount	EPlogAbstractModel.h	/^    int rowCount();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+EPlogAbstractModel::setHorizontalHeaderLabels	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::setHorizontalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(const QStringList &labels)
+EPlogAbstractModel::setHorizontalHeaderLabels	EPlogAbstractModel.h	/^    void setHorizontalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:( const QStringList & labels )
+EPlogAbstractModel::setVerticalHeaderLabels	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::setVerticalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(const QStringList &labels)
+EPlogAbstractModel::setVerticalHeaderLabels	EPlogAbstractModel.h	/^    void setVerticalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:( const QStringList & labels )
+EPlogTable	EPlogTable.cpp	/^EPlogTable::EPlogTable()$/;"	f	language:C++	class:EPlogTable	signature:()
+EPlogTable	EPlogTable.h	/^    EPlogTable();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+EPlogTable	EPlogTable.h	/^class EPlogTable$/;"	c	language:C++
+EPlogTable::EPlogTable	EPlogTable.cpp	/^EPlogTable::EPlogTable()$/;"	f	language:C++	class:EPlogTable	signature:()
+EPlogTable::EPlogTable	EPlogTable.h	/^    EPlogTable();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+EPlogTable::append	EPlogTable.cpp	/^void EPlogTable::append(EPlogTableItem *item)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogTableItem *item)
+EPlogTable::append	EPlogTable.h	/^    void append(EPlogTableItem* item);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogTableItem* item)
+EPlogTable::calPos	EPlogTable.cpp	/^void EPlogTable::calPos()$/;"	f	language:C++	class:EPlogTable	signature:()
+EPlogTable::calPos	EPlogTable.h	/^    void calPos();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+EPlogTable::drawForeground	EPlogTable.cpp	/^void EPlogTable::drawForeground(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTable	signature:(QPainter *painter, QWidget *view)
+EPlogTable::drawForeground	EPlogTable.h	/^    void drawForeground(QPainter* painter, QWidget* view);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QPainter* painter, QWidget* view)
+EPlogTable::getTableItem	EPlogTable.cpp	/^EPlogTableItem* EPlogTable::getTableItem(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogTable	signature:(int rowIndex, int columnIndex)
+EPlogTable::getTableItem	EPlogTable.h	/^    EPlogTableItem* getTableItem(int rowIndex, int columnIndex);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int rowIndex, int columnIndex)
+EPlogTable::getTitle	EPlogTable.cpp	/^QString EPlogTable::getTitle(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogTable	signature:(int rowIndex, int columnIndex)
+EPlogTable::getTitle	EPlogTable.h	/^    QString getTitle(int rowIndex, int columnIndex);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int rowIndex, int columnIndex)
+EPlogTable::insertColumn	EPlogTable.cpp	/^void EPlogTable::insertColumn(int before, QString columnName)$/;"	f	language:C++	class:EPlogTable	signature:(int before, QString columnName)
+EPlogTable::insertColumn	EPlogTable.h	/^    void insertColumn(int before, QString columnName);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int before, QString columnName)
+EPlogTable::insertRow	EPlogTable.cpp	/^void EPlogTable::insertRow(int before, QString rowName)$/;"	f	language:C++	class:EPlogTable	signature:(int before, QString rowName)
+EPlogTable::insertRow	EPlogTable.h	/^    void insertRow(int before,QString rowName);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int before,QString rowName)
+EPlogTable::m_bbox	EPlogTable.h	/^    QRect               m_bbox;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::m_childItems	EPlogTable.h	/^    QList<EPlogTableItem*> m_childItems;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::m_columnNames	EPlogTable.h	/^    QStringList         m_columnNames;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::m_focusRect	EPlogTable.h	/^    QRect               m_focusRect;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::m_model	EPlogTable.h	/^    EPlogAbstractModel* m_model;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::m_rowNames	EPlogTable.h	/^    QStringList         m_rowNames;$/;"	m	language:C++	class:EPlogTable	access:private
+EPlogTable::newlogTableItem	EPlogTable.cpp	/^void EPlogTable::newlogTableItem()$/;"	f	language:C++	class:EPlogTable	signature:()
+EPlogTable::newlogTableItem	EPlogTable.h	/^    void newlogTableItem();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+EPlogTable::paint	EPlogTable.cpp	/^void EPlogTable::paint(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTable	signature:(QPainter *painter, QWidget *view)
+EPlogTable::paint	EPlogTable.h	/^    void paint(QPainter* painter, QWidget* view);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QPainter* painter, QWidget* view)
+EPlogTable::remove	EPlogTable.cpp	/^void EPlogTable::remove(EPlogTableItem *item)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogTableItem *item)
+EPlogTable::remove	EPlogTable.h	/^    void remove(EPlogTableItem* item);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogTableItem* item)
+EPlogTable::removeColumn	EPlogTable.cpp	/^void EPlogTable::removeColumn(int column)$/;"	f	language:C++	class:EPlogTable	signature:(int column)
+EPlogTable::removeColumn	EPlogTable.h	/^    void removeColumn(int column);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int column)
+EPlogTable::removeRow	EPlogTable.cpp	/^void EPlogTable::removeRow(int row)$/;"	f	language:C++	class:EPlogTable	signature:(int row)
+EPlogTable::removeRow	EPlogTable.h	/^    void removeRow(int row);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int row)
+EPlogTable::setFocusRect	EPlogTable.cpp	/^void EPlogTable::setFocusRect(QRect rect)$/;"	f	language:C++	class:EPlogTable	signature:(QRect rect)
+EPlogTable::setFocusRect	EPlogTable.h	/^    void setFocusRect(QRect rect);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QRect rect)
+EPlogTable::setHorizontalHeaderLabels	EPlogTable.cpp	/^void EPlogTable::setHorizontalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogTable	signature:(const QStringList &labels)
+EPlogTable::setHorizontalHeaderLabels	EPlogTable.h	/^    void setHorizontalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogTable	access:public	signature:( const QStringList & labels )
+EPlogTable::setModel	EPlogTable.cpp	/^void EPlogTable::setModel(EPlogAbstractModel *model)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogAbstractModel *model)
+EPlogTable::setModel	EPlogTable.h	/^    void setModel(EPlogAbstractModel* model);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogAbstractModel* model)
+EPlogTable::setRect	EPlogTable.cpp	/^void EPlogTable::setRect(QRect rect)$/;"	f	language:C++	class:EPlogTable	signature:(QRect rect)
+EPlogTable::setRect	EPlogTable.h	/^    void setRect(QRect rect);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QRect rect)
+EPlogTable::setVerticalHeaderLabels	EPlogTable.cpp	/^void EPlogTable::setVerticalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogTable	signature:(const QStringList &labels)
+EPlogTable::setVerticalHeaderLabels	EPlogTable.h	/^    void setVerticalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogTable	access:public	signature:( const QStringList & labels )
+EPlogTableItem	EPlogTable.h	/^class EPlogTableItem$/;"	c	language:C++
+EPlogTableItem::m_bbox	EPlogTable.h	/^    QRect   m_bbox;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::m_columnIndex	EPlogTable.h	/^    int m_columnIndex;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::m_columnName	EPlogTable.h	/^    QString m_columnName;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::m_rowIndex	EPlogTable.h	/^    int m_rowIndex;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::m_rowName	EPlogTable.h	/^    QString m_rowName;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::m_valueString	EPlogTable.h	/^    QString m_valueString;$/;"	m	language:C++	class:EPlogTableItem	access:public
+EPlogTableItem::paint	EPlogTable.cpp	/^void EPlogTableItem::paint(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTableItem	signature:(QPainter *painter, QWidget *view)
+EPlogTableItem::paint	EPlogTable.h	/^    void paint(QPainter *painter, QWidget *view);$/;"	p	language:C++	class:EPlogTableItem	access:public	signature:(QPainter *painter, QWidget *view)
+MAINWINDOW_H	mainwindow.h	2;"	d	language:C++
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	language:C++	class:MainWindow	signature:(QWidget *parent)
+MainWindow	mainwindow.h	/^    explicit MainWindow(QWidget *parent = 0);$/;"	p	language:C++	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c	language:C++	inherits:QMainWindow
+MainWindow::MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent) :$/;"	f	language:C++	class:MainWindow	signature:(QWidget *parent)
+MainWindow::MainWindow	mainwindow.h	/^    explicit MainWindow(QWidget *parent = 0);$/;"	p	language:C++	class:MainWindow	access:public	signature:(QWidget *parent = 0)
+MainWindow::m_bLBDown	mainwindow.h	/^    bool        m_bLBDown;$/;"	m	language:C++	class:MainWindow	access:private
+MainWindow::m_cachePixmap	mainwindow.h	/^    QPixmap m_cachePixmap;$/;"	m	language:C++	class:MainWindow	access:private
+MainWindow::m_pTable	mainwindow.h	/^    EPlogTable* m_pTable;$/;"	m	language:C++	class:MainWindow	access:private
+MainWindow::m_rect	mainwindow.h	/^    QRect      m_rect;$/;"	m	language:C++	class:MainWindow	access:private
+MainWindow::mouseDoubleClickEvent	mainwindow.cpp	/^void MainWindow::mouseDoubleClickEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+MainWindow::mouseDoubleClickEvent	mainwindow.h	/^    void mouseDoubleClickEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+MainWindow::mouseMoveEvent	mainwindow.cpp	/^void MainWindow::mouseMoveEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+MainWindow::mouseMoveEvent	mainwindow.h	/^    void mouseMoveEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+MainWindow::mousePressEvent	mainwindow.cpp	/^void MainWindow::mousePressEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+MainWindow::mousePressEvent	mainwindow.h	/^    void mousePressEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+MainWindow::mouseReleaseEvent	mainwindow.cpp	/^void MainWindow::mouseReleaseEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+MainWindow::mouseReleaseEvent	mainwindow.h	/^    void mouseReleaseEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+MainWindow::paintEvent	mainwindow.cpp	/^void MainWindow::paintEvent(QPaintEvent *)$/;"	f	language:C++	class:MainWindow	signature:(QPaintEvent *)
+MainWindow::paintEvent	mainwindow.h	/^    void paintEvent(QPaintEvent *);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QPaintEvent *)
+MainWindow::resizeEvent	mainwindow.cpp	/^void MainWindow::resizeEvent(QResizeEvent *)$/;"	f	language:C++	class:MainWindow	signature:(QResizeEvent *)
+MainWindow::resizeEvent	mainwindow.h	/^    void resizeEvent(QResizeEvent *);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QResizeEvent *)
+MainWindow::ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	language:C++	class:MainWindow	access:private
+MainWindow::~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	language:C++	class:MainWindow	signature:()
+MainWindow::~MainWindow	mainwindow.h	/^    ~MainWindow();$/;"	p	language:C++	class:MainWindow	access:public	signature:()
+Ui	mainwindow.h	/^namespace Ui {$/;"	n	language:C++
+addColumn	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::addColumn()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+addColumn	EPlogAbstractModel.h	/^    void addColumn();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+addRow	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::addRow()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+addRow	EPlogAbstractModel.h	/^    void addRow();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+append	EPlogTable.cpp	/^void EPlogTable::append(EPlogTableItem *item)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogTableItem *item)
+append	EPlogTable.h	/^    void append(EPlogTableItem* item);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogTableItem* item)
+calPos	EPlogTable.cpp	/^void EPlogTable::calPos()$/;"	f	language:C++	class:EPlogTable	signature:()
+calPos	EPlogTable.h	/^    void calPos();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+columnCount	EPlogAbstractModel.cpp	/^int EPlogAbstractModel::columnCount()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+columnCount	EPlogAbstractModel.h	/^    int columnCount();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+data	EPlogAbstractModel.cpp	/^QString EPlogAbstractModel::data(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(int rowIndex, int columnIndex)
+data	EPlogAbstractModel.h	/^    virtual QString data(int rowIndex,int columnIndex);$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:(int rowIndex,int columnIndex)
+drawForeground	EPlogTable.cpp	/^void EPlogTable::drawForeground(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTable	signature:(QPainter *painter, QWidget *view)
+drawForeground	EPlogTable.h	/^    void drawForeground(QPainter* painter, QWidget* view);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QPainter* painter, QWidget* view)
+getTableItem	EPlogTable.cpp	/^EPlogTableItem* EPlogTable::getTableItem(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogTable	signature:(int rowIndex, int columnIndex)
+getTableItem	EPlogTable.h	/^    EPlogTableItem* getTableItem(int rowIndex, int columnIndex);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int rowIndex, int columnIndex)
+getTitle	EPlogTable.cpp	/^QString EPlogTable::getTitle(int rowIndex, int columnIndex)$/;"	f	language:C++	class:EPlogTable	signature:(int rowIndex, int columnIndex)
+getTitle	EPlogTable.h	/^    QString getTitle(int rowIndex, int columnIndex);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int rowIndex, int columnIndex)
+insertColumn	EPlogTable.cpp	/^void EPlogTable::insertColumn(int before, QString columnName)$/;"	f	language:C++	class:EPlogTable	signature:(int before, QString columnName)
+insertColumn	EPlogTable.h	/^    void insertColumn(int before, QString columnName);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int before, QString columnName)
+insertRow	EPlogTable.cpp	/^void EPlogTable::insertRow(int before, QString rowName)$/;"	f	language:C++	class:EPlogTable	signature:(int before, QString rowName)
+insertRow	EPlogTable.h	/^    void insertRow(int before,QString rowName);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int before,QString rowName)
+m_bLBDown	mainwindow.h	/^    bool        m_bLBDown;$/;"	m	language:C++	class:MainWindow	access:private
+m_bbox	EPlogTable.h	/^    QRect               m_bbox;$/;"	m	language:C++	class:EPlogTable	access:private
+m_bbox	EPlogTable.h	/^    QRect   m_bbox;$/;"	m	language:C++	class:EPlogTableItem	access:public
+m_cachePixmap	mainwindow.h	/^    QPixmap m_cachePixmap;$/;"	m	language:C++	class:MainWindow	access:private
+m_childItems	EPlogTable.h	/^    QList<EPlogTableItem*> m_childItems;$/;"	m	language:C++	class:EPlogTable	access:private
+m_columnCount	EPlogAbstractModel.h	/^    int m_columnCount;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+m_columnIndex	EPlogTable.h	/^    int m_columnIndex;$/;"	m	language:C++	class:EPlogTableItem	access:public
+m_columnName	EPlogTable.h	/^    QString m_columnName;$/;"	m	language:C++	class:EPlogTableItem	access:public
+m_columnNames	EPlogAbstractModel.h	/^    QStringList         m_columnNames;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+m_columnNames	EPlogTable.h	/^    QStringList         m_columnNames;$/;"	m	language:C++	class:EPlogTable	access:private
+m_focusRect	EPlogTable.h	/^    QRect               m_focusRect;$/;"	m	language:C++	class:EPlogTable	access:private
+m_model	EPlogTable.h	/^    EPlogAbstractModel* m_model;$/;"	m	language:C++	class:EPlogTable	access:private
+m_pTable	mainwindow.h	/^    EPlogTable* m_pTable;$/;"	m	language:C++	class:MainWindow	access:private
+m_rect	mainwindow.h	/^    QRect      m_rect;$/;"	m	language:C++	class:MainWindow	access:private
+m_rowCount	EPlogAbstractModel.h	/^    int m_rowCount;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+m_rowIndex	EPlogTable.h	/^    int m_rowIndex;$/;"	m	language:C++	class:EPlogTableItem	access:public
+m_rowName	EPlogTable.h	/^    QString m_rowName;$/;"	m	language:C++	class:EPlogTableItem	access:public
+m_rowNames	EPlogAbstractModel.h	/^    QStringList         m_rowNames;$/;"	m	language:C++	class:EPlogAbstractModel	access:private
+m_rowNames	EPlogTable.h	/^    QStringList         m_rowNames;$/;"	m	language:C++	class:EPlogTable	access:private
+m_valueString	EPlogTable.h	/^    QString m_valueString;$/;"	m	language:C++	class:EPlogTableItem	access:public
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	language:C++	signature:(int argc, char *argv[])
+mouseDoubleClickEvent	mainwindow.cpp	/^void MainWindow::mouseDoubleClickEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+mouseDoubleClickEvent	mainwindow.h	/^    void mouseDoubleClickEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+mouseMoveEvent	mainwindow.cpp	/^void MainWindow::mouseMoveEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+mouseMoveEvent	mainwindow.h	/^    void mouseMoveEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+mousePressEvent	mainwindow.cpp	/^void MainWindow::mousePressEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+mousePressEvent	mainwindow.h	/^    void mousePressEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+mouseReleaseEvent	mainwindow.cpp	/^void MainWindow::mouseReleaseEvent(QMouseEvent *e)$/;"	f	language:C++	class:MainWindow	signature:(QMouseEvent *e)
+mouseReleaseEvent	mainwindow.h	/^    void mouseReleaseEvent(QMouseEvent *e);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QMouseEvent *e)
+newlogTableItem	EPlogTable.cpp	/^void EPlogTable::newlogTableItem()$/;"	f	language:C++	class:EPlogTable	signature:()
+newlogTableItem	EPlogTable.h	/^    void newlogTableItem();$/;"	p	language:C++	class:EPlogTable	access:public	signature:()
+paint	EPlogTable.cpp	/^void EPlogTable::paint(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTable	signature:(QPainter *painter, QWidget *view)
+paint	EPlogTable.cpp	/^void EPlogTableItem::paint(QPainter *painter, QWidget *view)$/;"	f	language:C++	class:EPlogTableItem	signature:(QPainter *painter, QWidget *view)
+paint	EPlogTable.h	/^    void paint(QPainter *painter, QWidget *view);$/;"	p	language:C++	class:EPlogTableItem	access:public	signature:(QPainter *painter, QWidget *view)
+paint	EPlogTable.h	/^    void paint(QPainter* painter, QWidget* view);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QPainter* painter, QWidget* view)
+paintEvent	mainwindow.cpp	/^void MainWindow::paintEvent(QPaintEvent *)$/;"	f	language:C++	class:MainWindow	signature:(QPaintEvent *)
+paintEvent	mainwindow.h	/^    void paintEvent(QPaintEvent *);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QPaintEvent *)
+remove	EPlogTable.cpp	/^void EPlogTable::remove(EPlogTableItem *item)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogTableItem *item)
+remove	EPlogTable.h	/^    void remove(EPlogTableItem* item);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogTableItem* item)
+removeColumn	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::removeColumn()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+removeColumn	EPlogAbstractModel.h	/^    void removeColumn();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+removeColumn	EPlogTable.cpp	/^void EPlogTable::removeColumn(int column)$/;"	f	language:C++	class:EPlogTable	signature:(int column)
+removeColumn	EPlogTable.h	/^    void removeColumn(int column);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int column)
+removeRow	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::removeRow()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+removeRow	EPlogAbstractModel.h	/^    void removeRow();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+removeRow	EPlogTable.cpp	/^void EPlogTable::removeRow(int row)$/;"	f	language:C++	class:EPlogTable	signature:(int row)
+removeRow	EPlogTable.h	/^    void removeRow(int row);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(int row)
+resizeEvent	mainwindow.cpp	/^void MainWindow::resizeEvent(QResizeEvent *)$/;"	f	language:C++	class:MainWindow	signature:(QResizeEvent *)
+resizeEvent	mainwindow.h	/^    void resizeEvent(QResizeEvent *);$/;"	p	language:C++	class:MainWindow	access:protected	signature:(QResizeEvent *)
+rowCount	EPlogAbstractModel.cpp	/^int EPlogAbstractModel::rowCount()$/;"	f	language:C++	class:EPlogAbstractModel	signature:()
+rowCount	EPlogAbstractModel.h	/^    int rowCount();$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:()
+setFocusRect	EPlogTable.cpp	/^void EPlogTable::setFocusRect(QRect rect)$/;"	f	language:C++	class:EPlogTable	signature:(QRect rect)
+setFocusRect	EPlogTable.h	/^    void setFocusRect(QRect rect);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QRect rect)
+setHorizontalHeaderLabels	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::setHorizontalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(const QStringList &labels)
+setHorizontalHeaderLabels	EPlogAbstractModel.h	/^    void setHorizontalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:( const QStringList & labels )
+setHorizontalHeaderLabels	EPlogTable.cpp	/^void EPlogTable::setHorizontalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogTable	signature:(const QStringList &labels)
+setHorizontalHeaderLabels	EPlogTable.h	/^    void setHorizontalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogTable	access:public	signature:( const QStringList & labels )
+setModel	EPlogTable.cpp	/^void EPlogTable::setModel(EPlogAbstractModel *model)$/;"	f	language:C++	class:EPlogTable	signature:(EPlogAbstractModel *model)
+setModel	EPlogTable.h	/^    void setModel(EPlogAbstractModel* model);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(EPlogAbstractModel* model)
+setRect	EPlogTable.cpp	/^void EPlogTable::setRect(QRect rect)$/;"	f	language:C++	class:EPlogTable	signature:(QRect rect)
+setRect	EPlogTable.h	/^    void setRect(QRect rect);$/;"	p	language:C++	class:EPlogTable	access:public	signature:(QRect rect)
+setVerticalHeaderLabels	EPlogAbstractModel.cpp	/^void EPlogAbstractModel::setVerticalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogAbstractModel	signature:(const QStringList &labels)
+setVerticalHeaderLabels	EPlogAbstractModel.h	/^    void setVerticalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogAbstractModel	access:public	signature:( const QStringList & labels )
+setVerticalHeaderLabels	EPlogTable.cpp	/^void EPlogTable::setVerticalHeaderLabels(const QStringList &labels)$/;"	f	language:C++	class:EPlogTable	signature:(const QStringList &labels)
+setVerticalHeaderLabels	EPlogTable.h	/^    void setVerticalHeaderLabels ( const QStringList & labels );$/;"	p	language:C++	class:EPlogTable	access:public	signature:( const QStringList & labels )
+ui	mainwindow.h	/^    Ui::MainWindow *ui;$/;"	m	language:C++	class:MainWindow	access:private
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	language:C++	class:MainWindow	signature:()
+~MainWindow	mainwindow.h	/^    ~MainWindow();$/;"	p	language:C++	class:MainWindow	access:public	signature:()

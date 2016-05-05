@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="openFile">public/FileOpen.png</file>
+    </qresource>
+</RCC>

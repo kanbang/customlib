@@ -1,0 +1,12 @@
+#ifndef GLODONFORM_GLOBAL_H
+#define GLODONFORM_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(GLODONFORM_LIBRARY)
+#  define GLODONFORMSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define GLODONFORMSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // GLODONFORM_GLOBAL_H

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="New.png">Common/news.png</file>
+        <file alias="Forms.png">Common/FormsAstable.png</file>
+        <file alias="Ebidding.png">Common/UpdateEbiddingAstable.png</file>
+        <file alias="Waitting.png">Common/WaittingForImplement.png</file>
+    </qresource>
+</RCC>

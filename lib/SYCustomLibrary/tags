@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m	language:Make
+CC	Makefile	/^CC            = gcc$/;"	m	language:Make
+CFLAGS	Makefile	/^CFLAGS        = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m	language:Make
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m	language:Make
+CLTABLEMODEL_H	CLTableModel.h	2;"	d	language:C++
+CLTABLEVIEW_H	CLTableView.h	2;"	d	language:C++
+CLTableModel	CLTableModel.cpp	/^CLTableModel::CLTableModel(QObject *parent) :$/;"	f	language:C++	class:CLTableModel	signature:(QObject *parent)
+CLTableModel	CLTableModel.h	/^    explicit CLTableModel(QObject *parent = 0);$/;"	p	language:C++	class:CLTableModel	access:public	signature:(QObject *parent = 0)
+CLTableModel	CLTableModel.h	/^class CLTableModel : public QAbstractTableModel$/;"	c	language:C++	inherits:QAbstractTableModel
+CLTableModel::CLTableModel	CLTableModel.cpp	/^CLTableModel::CLTableModel(QObject *parent) :$/;"	f	language:C++	class:CLTableModel	signature:(QObject *parent)
+CLTableModel::CLTableModel	CLTableModel.h	/^    explicit CLTableModel(QObject *parent = 0);$/;"	p	language:C++	class:CLTableModel	access:public	signature:(QObject *parent = 0)
+CLTableModel::columnCount	CLTableModel.cpp	/^int CLTableModel::columnCount(const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+CLTableModel::columnCount	CLTableModel.h	/^	int columnCount(const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &parent) const
+CLTableModel::data	CLTableModel.cpp	/^QVariant CLTableModel::data(const QModelIndex& parent, int role) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent, int role) const
+CLTableModel::data	CLTableModel.h	/^	QVariant data(const QModelIndex &index, int role) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index, int role) const
+CLTableModel::flags	CLTableModel.cpp	/^Qt::ItemFlags CLTableModel::flags(const QModelIndex& parent) const $/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+CLTableModel::flags	CLTableModel.h	/^	Qt::ItemFlags flags(const QModelIndex &index) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index) const
+CLTableModel::getStaticMetaObject	moc_CLTableModel.cpp	/^const QMetaObject &CLTableModel::getStaticMetaObject() { return staticMetaObject; }$/;"	f	language:C++	class:CLTableModel	signature:()
+CLTableModel::index	CLTableModel.cpp	/^QModelIndex CLTableModel::index(int row, int column, const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(int row, int column, const QModelIndex& parent) const
+CLTableModel::index	CLTableModel.h	/^	QModelIndex index(int row, int column, const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(int row, int column, const QModelIndex &parent) const
+CLTableModel::metaObject	moc_CLTableModel.cpp	/^const QMetaObject *CLTableModel::metaObject() const$/;"	f	language:C++	class:CLTableModel	signature:() const
+CLTableModel::qt_metacall	moc_CLTableModel.cpp	/^int CLTableModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	language:C++	class:CLTableModel	signature:(QMetaObject::Call _c, int _id, void **_a)
+CLTableModel::qt_metacast	moc_CLTableModel.cpp	/^void *CLTableModel::qt_metacast(const char *_clname)$/;"	f	language:C++	class:CLTableModel	signature:(const char *_clname)
+CLTableModel::qt_static_metacall	moc_CLTableModel.cpp	/^void CLTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	language:C++	class:CLTableModel	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+CLTableModel::rowCount	CLTableModel.cpp	/^int CLTableModel::rowCount(const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+CLTableModel::rowCount	CLTableModel.h	/^	int rowCount(const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &parent) const
+CLTableModel::setData	CLTableModel.cpp	/^bool CLTableModel::setData(const QModelIndex& parent, const QVariant& value, int role) const $/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent, const QVariant& value, int role) const
+CLTableModel::setData	CLTableModel.h	/^	bool setData(const QModelIndex &index, const QVariant &value, int role) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index, const QVariant &value, int role) const
+CLTableModel::staticMetaObject	moc_CLTableModel.cpp	/^const QMetaObject CLTableModel::staticMetaObject = {$/;"	m	language:C++	class:CLTableModel	file:
+CLTableModel::staticMetaObjectExtraData	moc_CLTableModel.cpp	/^const QMetaObjectExtraData CLTableModel::staticMetaObjectExtraData = {$/;"	m	language:C++	class:CLTableModel	file:
+CLTableView	CLTableView.cpp	/^CLTableView::CLTableView(QWidget *parent)$/;"	f	language:C++	class:CLTableView	signature:(QWidget *parent)
+CLTableView	CLTableView.h	/^    CLTableView(QWidget * parent = 0);$/;"	p	language:C++	class:CLTableView	access:public	signature:(QWidget * parent = 0)
+CLTableView	CLTableView.h	/^class CLTableView : public QTableView$/;"	c	language:C++	inherits:QTableView
+CLTableView::CLTableView	CLTableView.cpp	/^CLTableView::CLTableView(QWidget *parent)$/;"	f	language:C++	class:CLTableView	signature:(QWidget *parent)
+CLTableView::CLTableView	CLTableView.h	/^    CLTableView(QWidget * parent = 0);$/;"	p	language:C++	class:CLTableView	access:public	signature:(QWidget * parent = 0)
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m	language:Make
+COPY	Makefile	/^COPY          = cp -f$/;"	m	language:Make
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m	language:Make
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m	language:Make
+CXX	Makefile	/^CXX           = g++$/;"	m	language:Make
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -g -Wall -W -D_REENTRANT $(DEFINES)$/;"	m	language:Make
+DEFINES	Makefile	/^DEFINES       = -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m	language:Make
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m	language:Make
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m	language:Make
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m	language:Make
+DIST	Makefile	/^DIST          = \/usr\/local\/Trolltech\/Qt-4.8.6\/mkspecs\/common\/unix.conf \\$/;"	m	language:Make
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/Trolltech\/Qt-4.8.6\/mkspecs\/linux-g++ -I. -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include\/QtCore -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include\/QtGui -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include -I.$/;"	m	language:Make
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m	language:Make
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m	language:Make
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m	language:Make
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-rpath,\/usr\/local\/Trolltech\/Qt-4.8.6\/lib$/;"	m	language:Make
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/Trolltech\/Qt-4.8.6\/lib -lQtGui -L\/usr\/local\/arm\/dbus-1.0.2\/lib -L\/usr\/local\/Trolltech\/Qt-4.8.6\/lib -L\/usr\/X11R6\/lib -lQtCore -ldbus-1 -lrt -lpthread $/;"	m	language:Make
+LINK	Makefile	/^LINK          = g++$/;"	m	language:Make
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m	language:Make
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m	language:Make
+OBJECTS	Makefile	/^OBJECTS       = CLTableModel.o \\$/;"	m	language:Make
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m	language:Make
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/Trolltech\/Qt-4.8.6\/bin\/qmake$/;"	m	language:Make
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = SYCustomLibrary$/;"	m	language:Make
+RANLIB	Makefile	/^RANLIB        = $/;"	m	language:Make
+SED	Makefile	/^SED           = sed$/;"	m	language:Make
+SOURCES	Makefile	/^SOURCES       = CLTableModel.cpp \\$/;"	m	language:Make
+STRIP	Makefile	/^STRIP         = strip$/;"	m	language:Make
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m	language:Make
+TAR	Makefile	/^TAR           = tar -cf$/;"	m	language:Make
+TARGET	Makefile	/^TARGET        = SYCustomLibrary$/;"	m	language:Make
+columnCount	CLTableModel.cpp	/^int CLTableModel::columnCount(const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+columnCount	CLTableModel.h	/^	int columnCount(const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &parent) const
+data	CLTableModel.cpp	/^QVariant CLTableModel::data(const QModelIndex& parent, int role) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent, int role) const
+data	CLTableModel.h	/^	QVariant data(const QModelIndex &index, int role) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index, int role) const
+flags	CLTableModel.cpp	/^Qt::ItemFlags CLTableModel::flags(const QModelIndex& parent) const $/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+flags	CLTableModel.h	/^	Qt::ItemFlags flags(const QModelIndex &index) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index) const
+getStaticMetaObject	moc_CLTableModel.cpp	/^const QMetaObject &CLTableModel::getStaticMetaObject() { return staticMetaObject; }$/;"	f	language:C++	class:CLTableModel	signature:()
+index	CLTableModel.cpp	/^QModelIndex CLTableModel::index(int row, int column, const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(int row, int column, const QModelIndex& parent) const
+index	CLTableModel.h	/^	QModelIndex index(int row, int column, const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(int row, int column, const QModelIndex &parent) const
+main	clmain.cpp	/^int main(int argc, char* argv[])$/;"	f	language:C++	signature:(int argc, char* argv[])
+metaObject	moc_CLTableModel.cpp	/^const QMetaObject *CLTableModel::metaObject() const$/;"	f	language:C++	class:CLTableModel	signature:() const
+qt_meta_data_CLTableModel	moc_CLTableModel.cpp	/^static const uint qt_meta_data_CLTableModel[] = {$/;"	v	language:C++	file:
+qt_meta_stringdata_CLTableModel	moc_CLTableModel.cpp	/^static const char qt_meta_stringdata_CLTableModel[] = {$/;"	v	language:C++	file:
+qt_metacall	moc_CLTableModel.cpp	/^int CLTableModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	language:C++	class:CLTableModel	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	moc_CLTableModel.cpp	/^void *CLTableModel::qt_metacast(const char *_clname)$/;"	f	language:C++	class:CLTableModel	signature:(const char *_clname)
+qt_static_metacall	moc_CLTableModel.cpp	/^void CLTableModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	language:C++	class:CLTableModel	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+rowCount	CLTableModel.cpp	/^int CLTableModel::rowCount(const QModelIndex& parent) const$/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent) const
+rowCount	CLTableModel.h	/^	int rowCount(const QModelIndex &parent) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &parent) const
+setData	CLTableModel.cpp	/^bool CLTableModel::setData(const QModelIndex& parent, const QVariant& value, int role) const $/;"	f	language:C++	class:CLTableModel	signature:(const QModelIndex& parent, const QVariant& value, int role) const
+setData	CLTableModel.h	/^	bool setData(const QModelIndex &index, const QVariant &value, int role) const;$/;"	p	language:C++	class:CLTableModel	access:public	signature:(const QModelIndex &index, const QVariant &value, int role) const
+staticMetaObject	moc_CLTableModel.cpp	/^const QMetaObject CLTableModel::staticMetaObject = {$/;"	m	language:C++	class:CLTableModel	file:
+staticMetaObjectExtraData	moc_CLTableModel.cpp	/^const QMetaObjectExtraData CLTableModel::staticMetaObjectExtraData = {$/;"	m	language:C++	class:CLTableModel	file:
