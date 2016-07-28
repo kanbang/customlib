@@ -47,8 +47,6 @@ waitForDisconnected() 等待链接断开
 #include <AadlgClientApp.h>
 #include <AadlgServerApp.h>
 #include <AbdlgUdpApp.h>
-#include <AbFtpApp.h>
-#include <AbFtpExtendApp.h>
 #include <AbHttpApp.h>
 #include <AbdlgUdpApp.h>
 #include <AbUdpWidgetApp.h>

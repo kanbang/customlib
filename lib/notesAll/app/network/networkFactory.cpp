@@ -125,8 +125,8 @@ AbFtpFactory::~AbFtpFactory()
 
 void AbFtpFactory::init()
 {
-    if(!app)
-        app = new AbFtpApp();
+//    if(!app)
+//        app = new AbFtpApp();
 }
 
 void AbFtpFactory::run()
@@ -380,9 +380,6 @@ networkFactoryProxy::networkFactoryProxy()
     m_apps.append(new AadlgClientFactory());
     m_apps.append(new AadlgServerFactory());
     m_apps.append(new AbdlgUdpFactory());
-    m_apps.append(new AbFtpFactory());
-    m_apps.append(new AbFtpExtendFactory());
-    m_apps.append(new AbHttpFactory());
     m_apps.append(new AbUdpWidgetFactory());
     m_apps.append(new AClientWidgetFactory());
     m_apps.append(new AcTcpServerWindowFactory());

@@ -76,6 +76,8 @@ EPSyberos::EPSyberos()
 
     PRAGMA key='testkey';PRAGMA cipher='aes-128-cbc';PRAGMA kdf_iter='100';
 
+    // 关闭pingpang.  false: off.  true:on
+    dbus-send --session --print-reply=literal --dest=com.syberos.processmanager.session /com/syberos/processmanager/session com.syberos.processmanager.session.Interface.enablePingPong boolean:false
    @ 移动 sim  13681524845
    @ 移动 sim 13810364766  service : 727964
    @ 联通 sim 18500126142  service : 126142 puk: 41838761

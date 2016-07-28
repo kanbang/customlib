@@ -20,7 +20,7 @@ private slots:
     void restData();
 
 private:
-    QFtp ftp;
+//    QFtp ftp;
     QFile file;
     
 };

@@ -15,5 +15,6 @@ SUBDIRS += \
     SYDbusService \
     qtalk\
     thread \
-    dbus
+    dbus\
+    network
 

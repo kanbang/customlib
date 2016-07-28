@@ -23,9 +23,6 @@ HEADERS += \
     AClientWidgetApp.h \
     AadlgClientApp.h \
     AadlgServerApp.h \
-    AbFtpApp.h \
-    AbHttpApp.h \
-    AbFtpExtendApp.h \
     AcTcpServerWindowApp.h \
     AbUdpWidgetApp.h \
     AbdlgUdpApp.h \
@@ -41,9 +38,6 @@ SOURCES += \
     epmain.cpp \
     AadlgClientApp.cpp \
     AadlgServerApp.cpp \
-    AbFtpApp.cpp \
-    AbHttpApp.cpp \
-    AbFtpExtendApp.cpp \
     AcTcpServerWindowApp.cpp \
     AbUdpWidgetApp.cpp \
     AbdlgUdpApp.cpp \
